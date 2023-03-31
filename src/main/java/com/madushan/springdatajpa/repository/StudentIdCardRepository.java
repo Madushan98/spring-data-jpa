@@ -1,0 +1,7 @@
+package com.madushan.springdatajpa.repository;
+
+import com.madushan.springdatajpa.entity.StudentIdCard;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentIdCardRepository extends JpaRepository<StudentIdCard, Long> {
+}
