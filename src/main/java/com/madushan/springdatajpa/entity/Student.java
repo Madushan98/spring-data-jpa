@@ -32,7 +32,7 @@ public class Student {
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true )
     @JoinColumn(
-            name = "student_id",
+            name = "student_id_card",
             referencedColumnName = "id",
             foreignKey = @ForeignKey(
                     name = "student_id_fk"
